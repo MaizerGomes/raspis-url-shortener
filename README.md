@@ -1,4 +1,4 @@
-> Note that the content on the [live site](http://rasp.is) is still being updated, so don't panic if you see some lorem ipsum here and there ;)
+> Note that this project is no longer being maintained and I had developed it while I was getting my head around Laravel and now I notice a lot of things that could have been done the better way.
 
 #RasP.is
 [RasP.is](http://rasp.is) is a URL shortener built on top of **Laravel 4**. It is not only a URL shortener but also a URL manager that allows the registered users to save and shorten their bookmarks with nice descriptions. Before we go ahead with the detail on how to use it, below is the overview of thee features that [RasP.is](http://rasp.is) provides.
@@ -11,6 +11,7 @@
 - For the shortened URLs, the controller does a 301 redirect, which is the recommended type of redirect for maintaining maximum google juice to the original URL.
 - A unique 6 character alphanumeric code is generated for each shortened link
 - Registered users can check the number of times their URL was accessed through the shortened URL.
+- Just so you know, there are places where use of Javascript would have been a better choice (like form submissions etc.) but I have tried to do everything using Laravel so you might not see that much use of Javascript.
 
 #How to setup
 Follow the below steps to get it working locally
